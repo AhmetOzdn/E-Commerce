@@ -1,0 +1,39 @@
+
+.containerDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div{
+    cursor: pointer;
+}
+
+.logo-div:hover{
+   transition: all .3s ease-in-out;
+   color: red;
+}
+
+.brandLogo{
+    font-size: 40px;
+    margin-right:10px;
+}
+
+.navbarInput{
+    border: none;
+    border-bottom: 1px solid lightblue;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.icon{
+    margin-left: 10px; 
+    font-size: 20px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color: #dbd405;
+}
